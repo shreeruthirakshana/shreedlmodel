@@ -26,7 +26,7 @@ from keras.models import load_model
 
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-model = load_model("C:\\Users\\Admin\\Downloads\\dlmodelsave.h5")
+model = load_model("C:\Users\Admin\OneDrive\Desktop\DL\github_dl\deepvision-main\\dlmodelsave.h5")
 
 
 new_title = '<h1 style="font-family:monospace; margin-top:0;text-align:center; color:orange; font-size: 70px;">Sign Language Detection</h1>'
