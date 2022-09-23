@@ -31,7 +31,7 @@ st.title("Hello ")
 
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-model = load_model("DeepVisionModel.h5")
+model = load_model("dlmodelsave.h5")
 
 if(camera.isOpened()):
   st.title("Webcam Live Feed")
