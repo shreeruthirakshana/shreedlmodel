@@ -6,11 +6,11 @@ import numpy as np
 
 
 st.title("SIGNED OR UNSIGNED")
-st.markdown("<h6 style='text-align: right; color: gray;'>~sumesh varadharajan</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: right; color: gray;'>~haiii</h6>", unsafe_allow_html=True)
 run = st.checkbox('Click to Run')
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-model2 = tf.keras.models.load_model('DeepVisionModel.h5')
+model2 = tf.keras.models.load_model('dlmodelsave.h5')
 font = cv2.FONT_HERSHEY_SIMPLEX
 image3 = cv2.imread("trial.jpeg",0)
 image3 = cv2.resize(image3,(256,256))
